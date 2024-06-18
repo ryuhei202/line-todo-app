@@ -1,13 +1,13 @@
 // import * as cdk from 'aws-cdk-lib';
 // import { Template } from 'aws-cdk-lib/assertions';
-// import * as LineTodoApp from '../lib/line-todo-app-stack';
+// import * as Infla from '../lib/infla-stack';
 
 // example test. To run these tests, uncomment this file along with the
-// example resource in lib/line-todo-app-stack.ts
+// example resource in lib/infla-stack.ts
 test('SQS Queue Created', () => {
 //   const app = new cdk.App();
 //     // WHEN
-//   const stack = new LineTodoApp.LineTodoAppStack(app, 'MyTestStack');
+//   const stack = new Infla.InflaStack(app, 'MyTestStack');
 //     // THEN
 //   const template = Template.fromStack(stack);
 

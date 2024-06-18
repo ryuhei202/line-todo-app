@@ -2,14 +2,14 @@ import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 // import * as sqs from 'aws-cdk-lib/aws-sqs';
 
-export class LineTodoAppStack extends cdk.Stack {
+export class InflaStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
     // The code that defines your stack goes here
 
     // example resource
-    // const queue = new sqs.Queue(this, 'LineTodoAppQueue', {
+    // const queue = new sqs.Queue(this, 'InflaQueue', {
     //   visibilityTimeout: cdk.Duration.seconds(300)
     // });
   }
